@@ -6,6 +6,8 @@ import Title from './components/Title/Title'
 import About from './components/About/About'
 import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -13,14 +15,18 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subtitle="Our Program" title="What we offer"/>
+      <Title subtitle="Our Program" title="What we offer" />
+      <div id='program'>
       <Programs />
+      </div>
       <About />
       <Title subtitle="Gallery" title="Campus Photos"/>
       <Campus />
-      <Title subtitle="Testimonials" title="What Our Students Say"/>
+      <Title subtitle="Testimonials" title="What Our Students Say" />
       <Testimonials/>
       <Title subtitle='Contact Us' title='Get in Touch' />
+      <Contact/>
+      <Footer />
       </div>
     </div>
   )

@@ -6,9 +6,11 @@ import p3 from '../../assets/program-3.png'
 import i1 from '../../assets/program-icon-1.png'
 import i2 from '../../assets/program-icon-1.png'
 import i3 from '../../assets/program-icon-1.png'
+import Title from '../Title/Title'
 
 const programs = () => {
   return (
+    <>
     <div className='programs'>
       <div className="program">
         <img src={p1} alt="placeholder p1" />
@@ -32,6 +34,7 @@ const programs = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

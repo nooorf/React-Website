@@ -4,7 +4,7 @@ import darkArrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
-    <div className='Hero'>
+    <div className='Hero' id='home'>
       <div className='Hero-text'>
         <h1>Ensuring better education for a better world</h1>
         <p>
