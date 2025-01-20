@@ -26,3 +26,27 @@
     font-size: 20px;
     line-height: 1.4;
 }
+
+@media (max-width: 850px){
+    .Hero-text h1{
+        font-size: 40px;
+        max-width: 600px;
+        padding: 0 30px;
+    }
+    .Hero-text p{
+        font-size: 18px;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 650px){
+    .Hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        padding: 0 30px;
+    }
+    .Hero-text p{
+        font-size: 14px;
+        padding: 0 30px;
+    }
+}

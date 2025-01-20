@@ -3,12 +3,18 @@ import './About.css'
 import about from '../../assets/about.png'
 import icon from '../../assets/play-icon.png'
 
-const About = () => {
+interface Props {
+  setShowVideo: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const About = ({setShowVideo}: Props) => {
   return (
     <div className='about' id='about'>
       <div className='about-left'>
         <img src={about} alt="" className='about-img'/>
-        <img src={icon} alt="" className='icon-img'/>
+        <img src={icon} alt="" className='icon-img' onClick={()=>{
+          setShowVideo(true)
+        }}/>
       </div>
       <div className='about-right'>
         <h3>ABOUT UNIVERSITY</h3>
