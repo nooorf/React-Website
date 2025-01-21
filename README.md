@@ -4,7 +4,7 @@ A modern, responsive website built using **react**, **typescript**, and **css**.
 
 ## ⚠️ Project Status
 
-This project is currently **incomplete**, **under development**, and **may contain bugs**.  
+Complete 🏄🏻‍♂️
 
 ---
 
